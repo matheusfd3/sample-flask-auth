@@ -5,7 +5,7 @@ Este é um projeto de exemplo focado exclusivamente em autenticação de usuári
 ## Funcionalidades
 
 - **CRUD de Usuário**: Cadastro de novos usuários com verificação de dados e controle de permissões.
-- **Login de Usuário**: Autenticação de usuários cadastrados.
+- **Login**: Autenticação de usuários cadastrados.
 - **Logout**: Encerramento de sessão de forma segura.
 - **Hashing de Senhas**: Senhas são armazenadas com hash (bcrypt) para segurança.
 - **Proteção de Rotas**: Algumas rotas são acessíveis apenas para usuários autenticados.
@@ -51,11 +51,7 @@ Este é um projeto de exemplo focado exclusivamente em autenticação de usuári
     ```bash
     docker-compose up
     ```
-5. **Inicie o servidor:**
-    ```bash
-    python run.py
-    ```
-6. **Use o flask shell para criar suas tabelas:**
+5. **Use o flask shell para criar suas tabelas:**
 - Na raiz do projeto
     ```bash
     flask shell
@@ -68,6 +64,10 @@ Este é um projeto de exemplo focado exclusivamente em autenticação de usuári
     ```
     ```bash
     exit()
+    ```
+6. **Inicie o servidor:**
+    ```bash
+    python run.py
     ```
 
 ## Endpoints
