@@ -87,9 +87,5 @@ def delete_user(user_id):
     
     return jsonify({"message": "User not found"}), 404
 
-@app.route("/hello-world", methods=["GET"])
-def hello_world():
-    return "Hello, World!"
-
 if __name__ == "__main__":
     app.run(debug=True)
