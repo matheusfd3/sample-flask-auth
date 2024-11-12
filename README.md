@@ -67,7 +67,7 @@ Este é um projeto de exemplo focado exclusivamente em autenticação de usuári
     ```
 6. **Inicie o servidor:**
     ```bash
-    python run.py
+    python app.py
     ```
 
 ## Endpoints
