@@ -34,7 +34,7 @@ Este é um projeto de exemplo focado exclusivamente em autenticação de usuári
    ```bash
    git clone https://github.com/matheusfd3/tasks-flask-crud.git
    
-   cd tasks-flask-crud
+   cd sample-flask-auth
    ```
 2. **Instale as dependências:**:
     ```bash
